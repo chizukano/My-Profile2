@@ -1,0 +1,93 @@
+body {
+  background-color: F7ECDE;
+  font-family: 'Zen Kaku Gothic Antique', sans-serif;
+  color: #03503f;
+  font-size: 130%;
+  line-height: 102%;
+}
+
+h1{
+  color: #1f2c2c;
+  font-size: 120%;
+  line-height: 100%;
+}
+
+a{
+  font-size: 70%;
+}
+
+h2{
+  font-size: 90%;
+}
+
+a:hover {
+  color:brown;
+}
+
+.container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+@media (max-width: 960px){
+  .container{
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px){
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px){
+  .container {
+    width: 400px;
+  }
+}
+
+.card-grey{
+border: 1px solid FBF8F;
+border-radius: 5px;
+background-color: FBF8F1;
+padding: 20px;
+margin: 20px;
+text-align: center;
+box-shadow: 2px 2px 20px lightgray;
+}
+
+.img-round{
+  border-radius: 50%;
+}
+
+.btn-blue{
+  background-color: darkcyan;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 15px;
+}
+
+.btn-blue:hover{
+  background-color: CDB699;
+  color: brown;
+}
+
+.list-inline li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline i{
+  font-size: 40px;
+  color: darkcyan;
+}
+
+.list-inline i:hover{
+  color: CDB699;
+}
+
+.list-inline{
+  list-style: none;
+  padding: 0px;
+}
